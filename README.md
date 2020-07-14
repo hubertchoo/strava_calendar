@@ -2,13 +2,9 @@
 
 Project to make calendar visualisations from Strava data. More information can be found below.
 
-Reason for the separate creation of this git repository is due to the package taken from github.com/colcarroll/strava_calendar.git being unable to work. 
+Edited from github.com/colcarroll/strava_calendar.git to handle .gpx file format instead of the .gzip file format.
 
-Files from bulk export from Strava comes in .gpx file format instead of the .gzip file format handled in the original package, which could be as sensor data from Garmins etc may be exported in .gzip but phone GPS data is exported in .gpx.
-
-Changes in the code are to account for handling of data provided in the .gpx file format.
-
-Further commit has implemented the option to display daily mileage in the calendar.
+Additional implementation for the option to display daily mileage in the calendar.
 
 Below is the original README at github.com/colcarroll/strava_calendar.git
 _______________________________________________________________________________________________________________________________
